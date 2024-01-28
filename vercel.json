@@ -75,6 +75,10 @@
         "dest": "build/index.html"
       },
       {
+        "src": "/react/cart",
+        "dest": "build/index.html"
+      },
+      {
         "src": "/(.+)",
         "dest": "build/$1"
       }
