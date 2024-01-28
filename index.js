@@ -148,5 +148,5 @@ async function main() {
 
 // Server start
 server.listen(process.env.PORT, () => {
-  console.log("Server started on port 8080");
+  console.log("Server started on port 8088");
 });
