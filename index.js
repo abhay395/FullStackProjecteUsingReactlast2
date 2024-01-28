@@ -134,6 +134,7 @@ server.use("/users", isAuth() ,userRouters.router);
 server.use("/auth",authRouter.router);
 server.use("/cart", isAuth(),cartRouter.router);
 server.use("/orders", isAuth(),orderRouter.router);
+server.get('*',(req,res)=>res.sendFile(path.resolve('build','index.html')))
 
 // Database connection
 main().catch((err) => console.log(err));
