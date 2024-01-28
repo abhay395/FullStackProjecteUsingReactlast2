@@ -79,6 +79,22 @@
         "dest": "build/index.html"
       },
       {
+        "src": "/checkout",
+        "dest": "build/index.html"
+      },
+      {
+        "src": "/product-detail",
+        "dest": "build/index.html"
+      },
+      {
+        "src": "/myprofile",
+        "dest": "build/index.html"
+      },
+      {
+        "src": "/myorders",
+        "dest": "build/index.html"
+      },
+      {
         "src": "/(.+)",
         "dest": "build/$1"
       }
