@@ -86,7 +86,7 @@ passport.use(
           }
         );
       } catch (error) {
-        return done(error);
+        return done({message:"unautherized"});
       }
     }
   )
@@ -105,7 +105,7 @@ passport.use(
   }
   
   } catch (error) {
-    return done(error,false)
+    return done({message:'unauth'},false)
   }
   })
 );
